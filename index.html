@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: white;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            text-indent: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header><h1>Tabuada</h1></header>
+    <section><div>
+        <p><label for="num">Número:</label>
+            <input type="number" name="inum" id="num">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        </p>
+
+    </div>
+    <div>
+        <select name="select" id="iselect"><option>Digite um número acima</option></select>
+    </div>
+</section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
